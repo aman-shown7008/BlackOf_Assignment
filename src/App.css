@@ -1,0 +1,78 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  /*========== Colors ==========*/
+  --head-color: #5fef45;
+  --white-color: #fff;
+
+  /*========== Font and typography ==========*/
+  --body-font: "Poppins", sans-serif;
+}
+/*=============== BASE ===============*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea
+{
+  font-family: var(--body-font)!important;
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+.section{
+  padding: 0px 80px!important;
+}
+
+.sectionTB{
+  margin-top: 50px!important;
+  margin-bottom: 50px!important;
+}
+
+.section-bottom{
+  padding-bottom: 80px!important;
+}
+
+
+.center-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-c{
+  color: '#fff';
+  text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .section{
+    padding: 0px 40px!important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .section{
+    padding: 0px 20px!important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+}
