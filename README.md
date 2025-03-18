@@ -23,6 +23,7 @@ This **React + TypeScript + Vite** web app is a pixel-perfect frontend implement
 - **CSS** - Utility-first styling
 - **Vite** - Fast development and build tool
 - **React-Toastify** - Notifications
+- **MaterialUI** - Modern, customizable UI components.
 
 ---
 
